@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Junbeom Kwon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am a research associate in the Connectome Lab at Seoul National University, supervised by Prof. Jiook Cha. Previously, I received my M.A. in Psychology at Seoul National University. Before that, I received a B.A. in Psychology and a B.S. in Bigdata Science at Sogang University."
   location         : "Somewhere"
   email            :
   links:
