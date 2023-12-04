@@ -12,27 +12,27 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Junbeom Kwon's Homepage"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "SNU Connectome Lab"# site tagline that appears below site title in masthead
 name                     : "Junbeom Kwon"
 description              : "An amazing website of Junbeom Kwon."
 url                      : "https://Junebeomstics.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "images/500x300.png"
-logo                     : "" #"images/증명사진(21.04.14, 인화용).JPG"
+logo                     : "/assets/images/lab_logo.png" #"images/증명사진(21.04.14, 인화용).JPG"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Junbeom Kwon" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -107,7 +107,7 @@ author:
   name             : "Junbeom Kwon"
   avatar           : "images/증명사진(21.04.14, 인화용).JPG"
   bio              : "I am a research associate in the Connectome Lab at Seoul National University, supervised by Prof. Jiook Cha. Previously, I received my M.A. in Psychology at Seoul National University. Before that, I received a B.A. in Psychology and a B.S. in Bigdata Science at Sogang University."
-  location         : "Somewhere"
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
@@ -287,6 +287,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # true
       share: true
       related: true
+      show_date : true
+
+date_format: "%Y-%m-%d"
