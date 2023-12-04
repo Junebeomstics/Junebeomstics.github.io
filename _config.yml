@@ -131,6 +131,9 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=Z_JYHdAAAAAJ&hl=en"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/junebeomstics/"
 
 # Site Footer
 footer:
