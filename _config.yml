@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Junbeom Kwon's Homepage"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Junbeom Kwon"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Junbeom Kwon"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "images/증명사진(21.04.14, 인화용).JPG"
   bio              : "I am a research associate in the Connectome Lab at Seoul National University, supervised by Prof. Jiook Cha. Previously, I received my M.A. in Psychology at Seoul National University. Before that, I received a B.A. in Psychology and a B.S. in Bigdata Science at Sogang University."
   location         : "Somewhere"
   email            :
